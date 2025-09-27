@@ -2,11 +2,12 @@
   "name": "intelligent-advisor-free",
   "version": "1.0.0",
   "description": "智能导员系统免费版 - 为大学生提供学习、生活、职业规划指导",
-  "main": "index.html",
+  "main": "public/index.html",
   "scripts": {
-    "start": "serve -s .",
+    "start": "serve -s public",
     "build": "echo 'No build process needed for static site'",
-    "dev": "serve -s . -p 3000"
+    "dev": "serve -s public -p 3000",
+    "vercel-build": "echo 'Static site ready for deployment'"
   },
   "keywords": [
     "advisor",
