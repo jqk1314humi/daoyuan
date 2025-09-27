@@ -5,9 +5,8 @@
   "main": "public/index.html",
   "scripts": {
     "start": "serve -s public",
-    "build": "echo 'No build process needed for static site'",
-    "dev": "serve -s public -p 3000",
-    "vercel-build": "echo 'Static site ready for deployment'"
+    "build": "echo 'Static site ready for deployment'",
+    "dev": "serve -s public -p 3000"
   },
   "keywords": [
     "advisor",
